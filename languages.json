@@ -1946,6 +1946,28 @@
       }
     ]
   },
+  "Dash": {
+    "complexitychecks": [
+      "for ",
+      "if ",
+      "else if ",
+      "else ",
+      "match ",
+      "|| ",
+      "&& ",
+      "!= ",
+      "== "
+    ],
+    "extensions": ["ds"],
+    "line_comment": ["//"],
+    "multi_line": [["/*", "*/"]],
+    "quotes": [
+      {
+        "end": "\"",
+        "start": "\""
+      }
+    ]
+  },
   "Device Tree": {
     "complexitychecks": [
       "for ",
